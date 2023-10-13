@@ -1,0 +1,28 @@
+.header{
+  width: 1200px;
+  margin: 20px auto auto;
+}
+.header .logo {
+  /* margin-bottom: 1rem; */
+}
+.header .logo img{
+  height: 30px;
+}
+.header .gnb{
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .gnb ul{
+  display: flex;
+}
+.header .gnb ul li{
+  font-size: 18px;
+  padding: 1rem;
+}
+.header .gnb .login{
+  font-size: 18px;
+  margin-right: 1rem;
+}

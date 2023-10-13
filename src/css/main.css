@@ -1,0 +1,47 @@
+.main{ 
+  width: 1200px;
+  margin: 0 auto;
+  /* border: 1px solid red; */
+}
+.main .main_visual img{
+  width: 100%;
+  object-fit: cover;
+}
+.mainList{
+  width: 1200px;
+  margin: 2rem auto;
+}
+.mainList .listCon{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.mainList .list{
+  /* border: 1px solid blue; */
+  margin-bottom: 2rem;
+}
+.mainList .imgCon img{
+  width: calc(400px - 0.5rem);
+}
+.mainList .listCon p{
+  text-align: left;
+  padding: 0.5rem 0;
+  font-weight: 600;
+}
+.mainList .listCon .list:nth-child(2) p{
+  opacity: 0;
+}
+
+/* bag */
+.bag .bag_text h3{
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+.bag .bag_text p{
+  width: 800px;
+  margin: auto;
+  text-align: center;
+}
+.bag .mainList .listCon .list:nth-child(2) p{
+  opacity: 1;
+}
